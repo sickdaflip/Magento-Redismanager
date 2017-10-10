@@ -1,5 +1,5 @@
 {
-    "name": "steverobbins/redismanager",
+    "name": "sickdaflip/mage_redismanager",
     "type": "magento-module",
     "license":"CC-BY-3.0",
     "description":"View and flush Redis services",
@@ -9,6 +9,9 @@
             "email":"steve@steverobbins.com"
         }
     ],
+    "require": {
+		"magento-hackathon/magento-composer-installer": "*"
+	},
     "require-dev":  {
         "squizlabs/php_codesniffer": "2.*"
     }
